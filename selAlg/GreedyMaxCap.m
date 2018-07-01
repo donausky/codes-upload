@@ -1,5 +1,5 @@
 function [selAntSet] = GreedyMaxCap(H,Lr,rho,flag)
-% this is the greedy antenna selection  to max C AT TX SIDE! If you want to use it at the Rx side, please input H' instead of H
+% this is the greedy antenna selection  to max C AT TX SIDE! If you want to use it at the Rx side, please input H.' instead of H
 % Algorithms presented in "Y Gao et al, Massive MIMO Antenna Selection: Switching Architectures, Capacity Bounds and Optimal Antenna Selection Algorithms, IEEE trans. signal processing, 2018"
 
 % Copyright reserved by Yuan Gao, gaoyuan88@gmail.com, San Diego, CA, USA
