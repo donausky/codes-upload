@@ -3,6 +3,8 @@ function [selAntSet, numIters] = OptSBB_MaxCap(H,M,rho,initVal)
 % max. channel capacity at the TX side!! If you want to use it at the Rx side, please input H' instead of H
 % Algorithms presented in "Y Gao et al, Massive MIMO Antenna Selection: Switching Architectures, Capacity Bounds and Optimal Antenna Selection Algorithms, IEEE trans. signal processing, 2018"
 
+% Copyright reserved by Yuan Gao, gaoyuan88@gmail.com, San Diego, CA, USA
+
 % input: 
 %       H:          channel matrix
 %       M:          subblocksize

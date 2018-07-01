@@ -1,6 +1,9 @@
 function [selAntSet] = GreedyMinTrace(H,Lr,rho,flag)
 % this is the greedy antenna selection  to min the trace AT TX SIDE! If you want to use it at the Rx side, please input H' instead of H
 % Algorithms presented in "Y Gao et al, Rotman lens based hybrid analog-digital beamforming in massive MIMO systems: Array architectures beam selection algorithms and experiments, IEEE trans. VT, 2017"
+
+% Copyright reserved by Yuan Gao, gaoyuan88@gmail.com, San Diego, CA, USA
+
 % input: 
 %       H:          channel matrix (a fat matrix) 
 %       Lr:         the number of selected ants
